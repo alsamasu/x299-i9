@@ -1,0 +1,44 @@
+
+Clover EFI installer log - Thu Nov 30 19:24:29 PST 2017
+Installer version: v2.4k r4318 EFI bootloader
+======================================================
+/dev/disk0 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *84.8 GB    disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                  Apple_HFS El Capitan              84.0 GB    disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+/dev/disk1 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *250.1 GB   disk1
+   1:                        EFI EFI                     209.7 MB   disk1s1
+   2:                  Apple_HFS High Sierra             249.7 GB   disk1s2
+/dev/disk2 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:        CD_partition_scheme                        *3.6 MB     disk2
+   1:     Apple_partition_scheme                         3.1 MB     disk2s0
+   2:        Apple_partition_map                         32.3 KB    disk2s0s1
+   3:                  Apple_HFS VMware Tools            3.1 MB     disk2s0s2
+/dev/disk3 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *31.1 GB    disk3
+   1:                        EFI EFI                     209.7 MB   disk3s1
+   2:                  Apple_HFS Install macOS High S... 30.8 GB    disk3s2
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/Install macOS High Sierra/EFIROOTDIR/EFI folder to /Volumes/Install macOS High Sierra/EFI-Backups/r4318/2017-11-30-19h24/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/Install macOS High Sierra
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/Install macOS High Sierra
+======================================================
+Installing RC Scripts
+
+Installing RC scripts on target volume '/Volumes/Install macOS High Sierra'
+
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================

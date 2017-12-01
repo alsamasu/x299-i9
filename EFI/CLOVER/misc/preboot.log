@@ -1,0 +1,755 @@
+0:100  0:100  MemLog inited, TSC freq: 3312467220
+0:100  0:000  CPU was calibrated without ACPI PM Timer: ACPI I/O space is not enabled., use RTC
+0:100  0:000  
+0:100  0:000  Now is 30.11.2017,  21:3:37 (GMT)
+0:100  0:000  Starting Clover revision: 4318 on American Megatrends EFI
+0:100  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED -t XCODE8 | -D NO_GRUB_DRIVERS_EMBEDDED -D USE_LOW_EBDA -a X64 -b RELEASE -t XCODE8 -n 5 | OS: 10.12.6 | XCODE: 9.1]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x14,0x0)\USB(0x19,0x0)\HD(1,GPT,70817E27-C8DE-4FD8-8AEC-A1000B1ECD27,0x28,0x64000) @31993198
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:106  0:005  === [ Get Smbios ] ========================================
+0:112  0:006  Type 16 Index = 0
+0:112  0:000  Type 16 Index = 1
+0:112  0:000  Total Memory Slots Count = 8
+0:112  0:000  Type 17 Index = 0
+0:112  0:000  SmbiosTable.Type17->Speed = 2666MHz
+0:112  0:000  SmbiosTable.Type17->Size = 4096MB
+0:112  0:000  SmbiosTable.Type17->Bank/Device = NODE 1 CPU1_DIMM_A0
+0:112  0:000  SmbiosTable.Type17->Vendor = 
+0:112  0:000  SmbiosTable.Type17->SerialNumber = 
+0:112  0:000  SmbiosTable.Type17->PartNumber = 
+0:112  0:000  Type 17 Index = 1
+0:112  0:000  Ignoring insane frequency value 0MHz
+0:112  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:112  0:000  SmbiosTable.Type17->Size = 0MB
+0:112  0:000  SmbiosTable.Type17->Bank/Device = NODE 1 CPU1_DIMM_A1
+0:112  0:000  SmbiosTable.Type17->Vendor = <null string>
+0:112  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+0:112  0:000  SmbiosTable.Type17->PartNumber = <null string>
+0:112  0:000  Type 17 Index = 2
+0:112  0:000  Ignoring insane frequency value 0MHz
+0:112  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:112  0:000  SmbiosTable.Type17->Size = 4096MB
+0:112  0:000  SmbiosTable.Type17->Bank/Device = NODE 1 CPU1_DIMM_B0
+0:112  0:000  SmbiosTable.Type17->Vendor = 
+0:112  0:000  SmbiosTable.Type17->SerialNumber = 
+0:112  0:000  SmbiosTable.Type17->PartNumber = 
+0:112  0:000  Type 17 Index = 3
+0:112  0:000  Ignoring insane frequency value 0MHz
+0:112  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:112  0:000  SmbiosTable.Type17->Size = 0MB
+0:112  0:000  SmbiosTable.Type17->Bank/Device = NODE 1 CPU1_DIMM_B1
+0:112  0:000  SmbiosTable.Type17->Vendor = <null string>
+0:112  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+0:112  0:000  SmbiosTable.Type17->PartNumber = <null string>
+0:112  0:000  Type 17 Index = 4
+0:112  0:000  Ignoring insane frequency value 0MHz
+0:112  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:112  0:000  SmbiosTable.Type17->Size = 4096MB
+0:112  0:000  SmbiosTable.Type17->Bank/Device = NODE 1 CPU1_DIMM_C0
+0:112  0:000  SmbiosTable.Type17->Vendor = 
+0:112  0:000  SmbiosTable.Type17->SerialNumber = 
+0:112  0:000  SmbiosTable.Type17->PartNumber = 
+0:112  0:000  Type 17 Index = 5
+0:112  0:000  SmbiosTable.Type17->Speed = 2666MHz
+0:112  0:000  SmbiosTable.Type17->Size = 4096MB
+0:112  0:000  SmbiosTable.Type17->Bank/Device = NODE 1 CPU1_DIMM_C1
+0:112  0:000  SmbiosTable.Type17->Vendor = 
+0:112  0:000  SmbiosTable.Type17->SerialNumber = 
+0:112  0:000  SmbiosTable.Type17->PartNumber = 
+0:112  0:000  Type 17 Index = 6
+0:112  0:000  SmbiosTable.Type17->Speed = 2666MHz
+0:112  0:000  SmbiosTable.Type17->Size = 4096MB
+0:112  0:000  SmbiosTable.Type17->Bank/Device = NODE 1 CPU1_DIMM_D0
+0:112  0:000  SmbiosTable.Type17->Vendor = 
+0:112  0:000  SmbiosTable.Type17->SerialNumber = 
+0:112  0:000  SmbiosTable.Type17->PartNumber = 
+0:112  0:000  Type 17 Index = 7
+0:112  0:000  SmbiosTable.Type17->Speed = 2666MHz
+0:112  0:000  SmbiosTable.Type17->Size = 4096MB
+0:112  0:000  SmbiosTable.Type17->Bank/Device = NODE 1 CPU1_DIMM_D1
+0:112  0:000  SmbiosTable.Type17->Vendor = 
+0:112  0:000  SmbiosTable.Type17->SerialNumber = 
+0:112  0:000  SmbiosTable.Type17->PartNumber = 
+0:112  0:000  Boot status=0
+0:112  0:000  Running on: 'X299 UD4' with board 'X299 UD4-CF'
+0:112  0:000  === [ GetCPUProperties ] ==================================
+0:112  0:000  CPU Vendor = 756E6547 Model=50654
+0:112  0:000   The CPU supported SSE4.1
+0:112  0:000  BrandString = Intel(R) Core(TM) i9-7900X CPU @ 3.30GHz
+0:112  0:000   The CPU not supported turbo
+0:112  0:000  MSR 0x35               A0014
+0:112  0:000   TSC/CCC Information Leaf:
+0:112  0:000    numerator     : 276
+0:112  0:000    denominator   : 2
+0:112  0:000   Calibrated ARTFrequency: 24003385
+0:112  0:000  MSR 0xE2 before patch 00000402
+0:112  0:000  MSR 0xCE              00070C2C_F3012100
+0:112  0:000  MSR 0x1A0             00850089
+0:112  0:000  MSR 0x1B0             00000000
+0:112  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:112  0:000  MaxDiv/MinDiv: 33.0/12
+0:112  0:000  Turbo: 45/45/45/45
+0:112  0:000  Features: 0xBFEBFBFF
+0:112  0:000  Threads: 20
+0:112  0:000  Cores: 10
+0:112  0:000  FSB: 100 MHz
+0:112  0:000  CPU: 3300 MHz
+0:112  0:000  TSC: 3300 MHz
+0:112  0:000  PIS: 100 MHz
+0:112  0:000  ExternalClock: 25 MHz
+0:112  0:000  === [ GetDevices ] ========================================
+0:112  0:000  PCI (00|00:00.00) : 8086 2020 class=060000
+0:112  0:000  PCI (00|00:04.00) : 8086 2021 class=088000
+0:112  0:000  PCI (00|00:04.01) : 8086 2021 class=088000
+0:112  0:000  PCI (00|00:04.02) : 8086 2021 class=088000
+0:112  0:000  PCI (00|00:04.03) : 8086 2021 class=088000
+0:112  0:000  PCI (00|00:04.04) : 8086 2021 class=088000
+0:112  0:000  PCI (00|00:04.05) : 8086 2021 class=088000
+0:112  0:000  PCI (00|00:04.06) : 8086 2021 class=088000
+0:112  0:000  PCI (00|00:04.07) : 8086 2021 class=088000
+0:112  0:000  PCI (00|00:05.00) : 8086 2024 class=088000
+0:112  0:000  PCI (00|00:05.01) : FFFF FFFF class=FFFFFF
+0:112  0:000  PCI (00|00:05.02) : 8086 2025 class=088000
+0:112  0:000  PCI (00|00:05.04) : 8086 2026 class=080020
+0:112  0:000  PCI (00|00:05.06) : FFFF FFFF class=FFFFFF
+0:112  0:000  PCI (00|00:07.00) : FFFF FFFF class=FFFFFF
+0:112  0:000  PCI (00|00:07.04) : FFFF FFFF class=FFFFFF
+0:112  0:000  PCI (00|00:07.07) : FFFF FFFF class=FFFFFF
+0:112  0:000  PCI (00|00:08.00) : 8086 2014 class=088000
+0:112  0:000  PCI (00|00:08.01) : 8086 2015 class=110100
+0:112  0:000  PCI (00|00:08.02) : 8086 2016 class=088000
+0:112  0:000  PCI (00|00:14.00) : 8086 A2AF class=0C0330
+0:112  0:000  PCI (00|00:16.00) : 8086 A2BA class=078000
+0:112  0:000  PCI (00|00:17.00) : 8086 2822 class=010400
+0:112  0:000  PCI (00|00:1B.00) : 8086 A2E7 class=060400
+0:112  0:000  PCI (00|01:00.00) : 15B7 5001 class=010802
+0:112  0:000  PCI (00|00:1C.00) : 8086 A290 class=060400
+0:112  0:000  PCI (00|00:1C.04) : 8086 A294 class=060400
+0:112  0:000  PCI (00|03:00.00) : 1B21 2142 class=0C0330
+0:112  0:000  PCI (00|00:1D.00) : 8086 A298 class=060400
+0:112  0:000  PCI (00|04:00.00) : 144D A804 class=010802
+0:112  0:000  PCI (00|00:1F.00) : 8086 A2D2 class=060100
+0:112  0:000  PCI (00|00:1F.02) : 8086 A2A1 class=058000
+0:112  0:000  PCI (00|00:1F.03) : 8086 A2F0 class=040300
+0:113  0:000  PCI (00|00:1F.04) : 8086 A2A3 class=0C0500
+0:113  0:000  PCI (00|00:1F.06) : 8086 15B8 class=020000
+0:113  0:000   - LAN: 0 Vendor=Intel
+0:113  0:000  PCI (00|16:05.00) : 8086 2034 class=088000
+0:113  0:000  PCI (00|16:05.02) : 8086 2035 class=088000
+0:113  0:000  PCI (00|16:05.04) : 8086 2036 class=080020
+0:113  0:000  PCI (00|16:05.06) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|16:07.00) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|16:07.01) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|16:07.02) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|16:07.03) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|16:07.04) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|16:07.07) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|16:08.00) : 8086 208D class=088000
+0:113  0:000  PCI (00|16:08.01) : 8086 208D class=088000
+0:113  0:000  PCI (00|16:08.02) : 8086 208D class=088000
+0:113  0:000  PCI (00|16:08.03) : 8086 208D class=088000
+0:113  0:000  PCI (00|16:08.04) : 8086 208D class=088000
+0:113  0:000  PCI (00|16:08.05) : 8086 208D class=088000
+0:113  0:000  PCI (00|16:08.06) : 8086 208D class=088000
+0:113  0:000  PCI (00|16:08.07) : 8086 208D class=088000
+0:113  0:000  PCI (00|16:09.00) : 8086 208D class=088000
+0:113  0:000  PCI (00|16:09.01) : 8086 208D class=088000
+0:113  0:000  PCI (00|16:0E.00) : 8086 208E class=088000
+0:113  0:000  PCI (00|16:0E.01) : 8086 208E class=088000
+0:113  0:000  PCI (00|16:0E.02) : 8086 208E class=088000
+0:113  0:000  PCI (00|16:0E.03) : 8086 208E class=088000
+0:113  0:000  PCI (00|16:0E.04) : 8086 208E class=088000
+0:113  0:000  PCI (00|16:0E.05) : 8086 208E class=088000
+0:113  0:000  PCI (00|16:0E.06) : 8086 208E class=088000
+0:113  0:000  PCI (00|16:0E.07) : 8086 208E class=088000
+0:113  0:000  PCI (00|16:0F.00) : 8086 208E class=088000
+0:113  0:000  PCI (00|16:0F.01) : 8086 208E class=088000
+0:113  0:000  PCI (00|16:14.00) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|16:14.01) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|16:14.02) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|16:14.03) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|16:14.04) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|16:14.05) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|16:14.06) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|16:14.07) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|16:15.00) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|16:15.01) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|16:1D.00) : 8086 2054 class=088000
+0:113  0:000  PCI (00|16:1D.01) : 8086 2055 class=088000
+0:113  0:000  PCI (00|16:1D.02) : 8086 2056 class=088000
+0:113  0:000  PCI (00|16:1D.03) : 8086 2057 class=088000
+0:113  0:000  PCI (00|16:1E.00) : 8086 2080 class=088000
+0:113  0:000  PCI (00|16:1E.01) : 8086 2081 class=088000
+0:113  0:000  PCI (00|16:1E.02) : 8086 2082 class=088000
+0:113  0:000  PCI (00|16:1E.03) : 8086 2083 class=088000
+0:113  0:000  PCI (00|16:1E.04) : 8086 2084 class=088000
+0:113  0:000  PCI (00|16:1E.05) : 8086 2085 class=088000
+0:113  0:000  PCI (00|16:1E.06) : 8086 2086 class=088000
+0:113  0:000  PCI (00|16:1F.00) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|16:1F.01) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|16:1F.02) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|16:1F.03) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|16:1F.04) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|16:1F.05) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|16:1F.06) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|16:1F.07) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|64:00.00) : 8086 2030 class=060400
+0:113  0:000  PCI (00|65:00.00) : 10DE 13C2 class=030000
+0:113  0:000   - GFX: Model=EVGA GeForce GTX 970 family 124 (Nvidia)
+0:113  0:000  PCI (00|65:00.01) : 10DE 0FBB class=040300
+0:113  0:000   - HDMI Audio: 
+0:113  0:000  PCI (00|64:05.00) : 8086 2034 class=088000
+0:113  0:000  PCI (00|64:05.02) : 8086 2035 class=088000
+0:113  0:000  PCI (00|64:05.04) : 8086 2036 class=080020
+0:113  0:000  PCI (00|64:05.06) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|64:07.00) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|64:07.01) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|64:07.02) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|64:07.03) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|64:07.04) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|64:07.07) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|64:08.00) : 8086 2066 class=088000
+0:113  0:000  PCI (00|64:08.01) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|64:09.00) : 8086 2066 class=088000
+0:113  0:000  PCI (00|64:09.01) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|64:0A.00) : 8086 2040 class=088000
+0:113  0:000  PCI (00|64:0A.01) : 8086 2041 class=088000
+0:113  0:000  PCI (00|64:0A.02) : 8086 2042 class=088000
+0:113  0:000  PCI (00|64:0A.03) : 8086 2043 class=088000
+0:113  0:000  PCI (00|64:0A.04) : 8086 2044 class=088000
+0:113  0:000  PCI (00|64:0A.05) : 8086 2045 class=088000
+0:113  0:000  PCI (00|64:0A.06) : 8086 2046 class=088000
+0:113  0:000  PCI (00|64:0A.07) : 8086 2047 class=088000
+0:113  0:000  PCI (00|64:0B.00) : 8086 2048 class=088000
+0:113  0:000  PCI (00|64:0B.01) : 8086 2049 class=088000
+0:113  0:000  PCI (00|64:0B.02) : 8086 204A class=088000
+0:113  0:000  PCI (00|64:0B.03) : 8086 204B class=088000
+0:113  0:000  PCI (00|64:0C.00) : 8086 2040 class=088000
+0:113  0:000  PCI (00|64:0C.01) : 8086 2041 class=088000
+0:113  0:000  PCI (00|64:0C.02) : 8086 2042 class=088000
+0:113  0:000  PCI (00|64:0C.03) : 8086 2043 class=088000
+0:113  0:000  PCI (00|64:0C.04) : 8086 2044 class=088000
+0:113  0:000  PCI (00|64:0C.05) : 8086 2045 class=088000
+0:113  0:000  PCI (00|64:0C.06) : 8086 2046 class=088000
+0:113  0:000  PCI (00|64:0C.07) : 8086 2047 class=088000
+0:113  0:000  PCI (00|64:0D.00) : 8086 2048 class=088000
+0:113  0:000  PCI (00|64:0D.01) : 8086 2049 class=088000
+0:113  0:000  PCI (00|64:0D.02) : 8086 204A class=088000
+0:113  0:000  PCI (00|64:0D.03) : 8086 204B class=088000
+0:113  0:000  PCI (00|B2:05.00) : 8086 2034 class=088000
+0:113  0:000  PCI (00|B2:05.02) : 8086 2035 class=088000
+0:113  0:000  PCI (00|B2:05.04) : 8086 2036 class=080020
+0:113  0:000  PCI (00|B2:05.06) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|B2:07.00) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|B2:07.01) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|B2:07.02) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|B2:07.03) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|B2:07.04) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|B2:07.07) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|B2:12.00) : 8086 204C class=110100
+0:113  0:000  PCI (00|B2:12.01) : 8086 204D class=110100
+0:113  0:000  PCI (00|B2:12.02) : 8086 204E class=088000
+0:113  0:000  PCI (00|B2:12.03) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|B2:15.00) : 8086 2018 class=088000
+0:113  0:000  PCI (00|B2:15.03) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|B2:16.00) : 8086 2018 class=088000
+0:113  0:000  PCI (00|B2:16.03) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|B2:16.04) : 8086 2018 class=088000
+0:113  0:000  PCI (00|B2:16.07) : FFFF FFFF class=FFFFFF
+0:113  0:000  PCI (00|B2:17.00) : 8086 2018 class=088000
+0:113  0:000  PCI (00|B2:17.03) : FFFF FFFF class=FFFFFF
+0:113  0:000  === [ GetDefaultSettings ] ================================
+0:113  0:000  Clover load options size = 0 bytes
+0:130  0:016  EFI\CLOVER\config.plist loaded: Success
+0:142  0:012  === [ GetListOfThemes ] ===================================
+0:171  0:028  - [00]: BGM
+0:200  0:028  - [01]: chrome
+0:207  0:007  - [02]: CrispyOSX
+0:210  0:003  - [03]: dark
+0:214  0:004  - [04]: El Capitan
+0:228  0:013  - [05]: embedded
+0:228  0:000  - [05]: iclover
+0:249  0:020  - [06]: metal
+0:268  0:019  - [07]: random
+0:273  0:004  === [ Found config plists ] ===============================
+0:277  0:003  - config.plist
+0:285  0:007  === [ GetEarlyUserSettings ] ==============================
+0:285  0:000  timeout set to 5
+0:285  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:285  0:000  FakeCPUID: 506E4
+0:285  0:000  KextsToPatch: 2 requested
+0:285  0:000   - [00]: IOAHCIBlockStorage (SSD Trim Enabler) :: BinPatch :: data len: 10
+0:285  0:000   - patch disabled at config
+0:285  0:000   - [01]: AppleUSBXHCIPCI (USB Port Limit Patch) :: BinPatch :: data len: 4
+0:285  0:000  KernelToPatch: 9 requested
+0:285  0:000   - [00]: xcpm_cpuid_set_info © Pike R. Alpha :: data len: 8
+0:285  0:000   - [01]: xcpm_bootstrap Sierra © Pike R. Alpha :: data len: 8
+0:285  0:000   - [02]: xcpm_program_msrs © Pike R. Alpha :: data len: 28
+0:285  0:000   - [03]: xcpm_pkg_scope_msrs © Pike R. Alpha :: data len: 12
+0:285  0:000   - [04]: xcpm_SMT_scope_msrs © Pike R. Alpha :: data len: 11
+0:285  0:000   - [05]: xcpm_core_scope_msrs © Pike R. Alpha :: data len: 12
+0:285  0:000   - [06]: xcpm_idle patch by Pike R. Alpha :: data len: 7
+0:285  0:000   - [07]: 10.13 Installer/Updater essential :: data len: 11
+0:285  0:000   - [08]: Lilu 1.2.x debug :: data len: 6
+0:285  0:000  Default theme: iclover
+0:285  0:000  === [ LoadDrivers ] =======================================
+0:291  0:006  Loading apfs.efi  status=Success
+0:303  0:011   - driver needs connecting
+0:303  0:000  Loading AppleImageCodec-64.efi  status=Success
+0:309  0:006  Loading AppleKeyAggregator-64.efi  status=Success
+0:314  0:004  Loading AppleUITheme-64.efi  status=Success
+0:316  0:001  Loading DataHubDxe-64.efi  status=Success
+0:318  0:002  Loading FirmwareVolume-64.efi  status=Success
+0:319  0:001  Loading FSInject-64.efi  status=Success
+0:324  0:005  Loading CsmVideoDxe-64.efi  status=Success
+0:325  0:001   - driver needs connecting
+0:325  0:000  Loading OsxAptioFix2Drv-64.efi  status=Success
+0:331  0:006  Loading OsxFatBinaryDrv-64.efi  status=Success
+0:332  0:001  Loading SMCHelper-64.efi  status=Success
+0:333  0:001  Loading VBoxHfs-64.efi  status=Success
+0:340  0:006   - driver needs connecting
+0:343  0:002  Loading EmuVariableUefi-64.efi  status=Success
+0:354  0:011  EmuVariableUefi Initialize: VariableCommonInitialize = Success, orig services stored, install gEmuVariableControlProtocolGuid = Success
+0:354  0:000  3 drivers needs connecting ...
+0:354  0:000  PlatformDriverOverrideProtocol not found. Installing ... Success
+0:354  0:000  APFS driver loaded
+0:354  0:000  Video driver loaded: disconnect Success
+0:356  0:001  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+0:740  0:384  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+0:851  0:110  === [ InitScreen ] ========================================
+0:851  0:000  SetScreenResolution: 3840x1600 - not found!
+0:851  0:000  Console modes reported: 6, available modes:
+0:851  0:000   - [01]: 80x25 (current mode)
+0:851  0:000   - [02]: 80x50
+0:851  0:000   - [03]: 100x31
+0:851  0:000   - [04]: 127x33
+0:851  0:000   - [06]: 120x50
+0:851  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x14,0x0)\USB(0x19,0x0)\HD(1,GPT,70817E27-C8DE-4FD8-8AEC-A1000B1ECD27,0x28,0x64000)
+0:851  0:000  Using embedded font: Success
+0:851  0:000  === [ GetMacAddress ] =====================================
+0:851  0:000  MAC address of LAN #0= E0:D5:5E:22:88:06:
+0:851  0:000  MAC address of LAN #1= E0:D5:5E:22:88:06:
+0:851  0:000  === [ ScanSPD ] ===========================================
+0:852  0:000  SMBus device : 8086 A2A3 class=0C0500 status=Success
+0:852  0:000  SMBus CmdReg: 0x1
+0:852  0:000  Scanning SMBus [8086:A2A3], mmio: 0x92F6A004, ioport: 0x3000, hostc: 0x11
+0:852  0:000  Slots to scan [8]...
+0:853  0:001  === [ GetAcpiTablesList ] =================================
+0:866  0:012  Get Acpi Tables List from RSDT:
+0:866  0:000   - [00]: FACP  A M I  len=132
+0:866  0:000   - [01]: FPDT  A M I  len=68
+0:866  0:000   - [02]: FIDT  A M I len=156
+0:866  0:000   - [03]: SSDT  GSWApp len=31278
+0:866  0:000   - [04]: UEFI  A M I  len=66
+0:866  0:000   - [05]: MCFG  A M I len=60
+0:866  0:000   - [06]: HPET  A M I  len=56
+0:866  0:000   - [07]: APIC  A M I  len=1822
+0:866  0:000   - [08]: MCFG  A M I  len=60
+0:866  0:000   - [09]: MIGT  A M I  len=64
+0:866  0:000   - [10]: MSCT  A M I  len=78
+0:866  0:000   - [11]: PCCT  A M I  len=110
+0:866  0:000   - [12]: RASF  A M I  len=48
+0:866  0:000   - [13]: SLIT  A M I  len=108
+0:866  0:000   - [14]: SRAT  A M I  len=2608
+0:866  0:000   - [15]: SVOS  A M I  len=50
+0:866  0:000   - [16]: WDDT  A M I  len=64
+0:866  0:000   - [17]: OEM4  CPU  CST len=170610
+0:866  0:000   - [18]: SSDT  SSDT  PM len=54311
+0:866  0:000   - [19]: NITR  A M I  len=113
+0:866  0:000   - [20]: SSDT  A M I  len=2390
+0:866  0:000   - [21]: LPIT  SKL len=148
+0:866  0:000   - [22]: WSMT  SKL len=40
+0:866  0:000   - [23]: WDAT  SKL len=308
+0:866  0:000   - [24]: SSDT  sensrhub len=671
+0:866  0:000   - [25]: SSDT  PtidDevc len=12290
+0:866  0:000   - [26]: DBGP   len=52
+0:866  0:000   - [27]: DBG2   len=84
+0:866  0:000   - [28]: BGRT  A M I  len=56
+0:866  0:000   - [29]: UEFI  RstSataE len=1594
+0:866  0:000   - [30]: UEFI  RstSataV len=92
+0:866  0:000   - [31]: DMAR  A M I  len=216
+0:866  0:000   - [32]: WSMT  A M I  len=40
+0:866  0:000  Calibrated TSC Frequency = 3312467220 = 3312MHz
+0:866  0:000  === [ GetUserSettings ] ===================================
+0:866  0:000  USB FixOwnership: no
+0:866  0:000  Dropping 3 tables:
+0:866  0:000   - [00]: Drop table  signature="DMAR" (52414D44)
+0:866  0:000           - set table: 52414D44,                0 to drop: yes
+0:866  0:000   - [01]: Drop table  signature="SSDT" (54445353) table-id="Cpu0Ist" (0074734930757043)
+0:866  0:000           - set table: 54445353,   74734930757043 to drop: no
+0:866  0:000   - [02]: Drop table  signature="SSDT" (54445353) table-id="CpuPm" (0000006D50757043)
+0:866  0:000           - set table: 54445353,       6D50757043 to drop: no
+0:866  0:000   - final DSDT Fix mask=00000000
+0:866  0:000  PatchesDSDT: 20 requested
+0:866  0:000   - [00]: (CAVS -> HDEF) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:866  0:000   - [01]: (PC00 -> PCI0) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:866  0:000   - [02]: (PC01 -> PCI1) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:866  0:000   - [03]: (PC02 -> PCI2) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:866  0:000   - [04]: (PC03 -> PCI3) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:866  0:000   - [05]: (PC04 -> PCI4) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:866  0:000   - [06]: (PC05 -> PCI5) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:866  0:000   - [07]: (SL05 -> GFX0) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:866  0:000   - [08]: (OSI -> XOSI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:866  0:000   - [09]: (EC0_ -> EC__) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:866  0:000   - [10]: (H_EC  -> EC__) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:866  0:000   - [11]: (GBE1 -> ETH0) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:866  0:000   - [12]: (D0A4  -> ETH1) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:866  0:000   - [13]: (HEC1 -> IMEI) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:866  0:000   - [14]: (PMC1 -> PMCR) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:866  0:000   - [15]: (LPC0 -> LPCB) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:866  0:000   - [16]: (FPU_ -> MATH) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:866  0:000   - [17]: (TMR_ -> TIMR) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:866  0:000   - [18]: (PIC_ -> IPIC) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:866  0:000   - [19]: (_DSM -> XDSM) lenToFind: 4, lenToReplace: 4, Target Bridge: <null string>
+0:866  0:000  PluginType: 1
+0:866  0:000  Using ProductName from config
+0:866  0:000  ProductName: iMac17,1
+0:866  0:000  Found same BiosVersion in clover and config
+0:866  0:000  BiosVersion: IM171.88Z.0110.B00.1708080012
+0:866  0:000  BiosReleaseDate: 08/08/2017
+0:866  0:000  Using FirmwareFeatures from config
+0:866  0:000  FirmwareFeatures: 0xFC0FE136
+0:866  0:000  Using FirmwareFeaturesMask from config
+0:866  0:000  FirmwareFeaturesMask: 0xFF1FFF3F
+0:866  0:000  Using PlatformFeature from clover
+0:866  0:000  PlatformFeature: 0x0
+0:866  0:000  Board-ID set from config as Mac-B809C3757DA9BB8D
+0:866  0:000  BoardType: 0xA
+0:866  0:000  ChassisType: 0x9
+0:866  0:000  CpuType: A05
+0:866  0:000  Converted CustomUUID 247FD49B-2483-4732-BB90-4234C7465EC1
+0:900  0:033  === [ ScanVolumes ] =======================================
+0:900  0:000  Found 15 volumes with blockIO
+0:900  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x19,0x0)
+0:901  0:001          USB volume
+0:901  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x19,0x0)\HD(1,GPT,70817E27-C8DE-4FD8-8AEC-A1000B1ECD27,0x28,0x64000)
+0:903  0:001          Result of bootcode detection: bootable unknown (legacy)
+0:903  0:000          USB volume
+0:903  0:000          This is SelfVolume !!
+0:903  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x19,0x0)\HD(2,GPT,C25A523D-4385-49DB-B642-5D12FB56443C,0x64028,0x394BFB0)
+0:905  0:002          USB volume
+0:905  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x8000,0x0)
+0:905  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x8,0x8000,0x0)
+0:905  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x8000,0x0)\HD(1,GPT,2A441FAC-1A3C-4FBF-8B4B-8353EF1CFF52,0x28,0x64000)
+0:905  0:000          Result of bootcode detection: bootable unknown (legacy)
+0:905  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x2,0x8000,0x0)\HD(2,GPT,8EEBC6E8-643C-41E4-ACB3-A50EE19D19C1,0x64028,0x1D121920)
+0:905  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x8,0x8000,0x0)\HD(1,GPT,64AD9B89-77EF-470C-B0D4-CA31A6B23B55,0x800,0xE8E08000)
+0:905  0:000          Result of bootcode detection: bootable Windows (vista,win)
+0:905  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x1B,0x0)\Pci(0x0,0x0)\NVMe(0x1,64-E2-44-44-8B-44-1B-00)
+0:912  0:006  - [09]: Volume: PciRoot(0x0)\Pci(0x1B,0x0)\Pci(0x0,0x0)\NVMe(0x1,64-E2-44-44-8B-44-1B-00)\HD(1,GPT,ABF8CB25-2C57-45F2-BF8E-700136A2FD68,0x800,0x1DCF2800)
+0:913  0:000          Result of bootcode detection: bootable Windows (vista,win)
+0:913  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,05-47-B1-71-59-38-25-00)
+0:913  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,05-47-B1-71-59-38-25-00)\HD(1,GPT,5F31DD01-7C0B-4141-A83E-3EB094566A79,0x800,0xF9800)
+0:913  0:000          Result of bootcode detection: bootable Windows (vista,win)
+0:913  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,05-47-B1-71-59-38-25-00)\HD(2,GPT,CB484C0C-0854-4EC4-90E0-74EDD7245050,0xFA000,0x32000)
+0:913  0:000          Result of bootcode detection: bootable Windows (vista,win)
+0:913  0:000  - [13]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,05-47-B1-71-59-38-25-00)\HD(3,GPT,3C22C81F-D2B9-4165-88BF-5C0E1DBDE3E7,0x12C000,0x8000)
+0:914  0:000  - [14]: Volume: PciRoot(0x0)\Pci(0x1D,0x0)\Pci(0x0,0x0)\NVMe(0x1,05-47-B1-71-59-38-25-00)\HD(4,GPT,C85CC170-A3B6-4DB1-BDFE-4DB287E80ACB,0x134000,0x1A1FD800)
+0:914  0:000          Result of bootcode detection: bootable Windows (vista,win)
+0:921  0:007  PutNvramPlistToRtVars: nvram.plist not found
+0:921  0:000  === [ InitTheme ] =========================================
+0:921  0:000  Using theme 'iclover' (EFI\CLOVER\themes\iclover)
+0:922  0:000  Loading font from ThemeDir: Success
+0:922  0:000  Choosing theme iclover
+0:922  0:000  after NVRAM boot-args=-v slide=0 dart=0 npci=0x2000 keepsyms=1 debug=0x100
+0:922  0:000  === [ Dump SMC keys from NVRAM ] ==========================
+0:922  0:000  found AppleSMC protocol
+0:922  0:000  === [ ScanLoader ] ========================================
+0:922  0:000  - [01]: 'EFI'
+0:950  0:027  - [02]: 'Install macOS High Sierra'
+0:953  0:002          AddLoaderEntry for Volume Name=Install macOS High Sierra
+0:962  0:008  - [05]: 'EFI'
+0:965  0:003  - [06]: 'High Sierra'
+0:971  0:006  - [12]: 'EFI'
+0:972  0:000          AddLoaderEntry for Volume Name=EFI
+0:977  0:004  Scanning legacy ...
+0:977  0:000   7: 'Legacy HD1' (vista,win) add legacy
+0:977  0:000   added 'Boot Windows from Legacy HD1' OSType=2 Icon=vista,win
+0:977  0:000   9: 'Legacy HD1' (vista,win) add legacy
+0:977  0:000   added 'Boot Windows from Legacy HD1' OSType=2 Icon=vista,win
+0:977  0:000  11: 'Legacy HD1' (vista,win) add legacy
+0:977  0:000   added 'Boot Windows from Legacy HD1' OSType=2 Icon=vista,win
+0:977  0:000  12: 'EFI' (vista,win) add legacy
+0:978  0:000   added 'Boot Windows from EFI' OSType=2 Icon=vista,win
+0:978  0:000  14: 'Legacy HD4' (vista,win) add legacy
+0:978  0:000   added 'Boot Windows from Legacy HD4' OSType=2 Icon=vista,win
+0:978  0:000  === [ AddCustomTool ] =====================================
+0:983  0:005  found tool \EFI\CLOVER\tools\Shell64U.efi
+0:983  0:000  Checking EFI partition Volume 1 for Clover
+0:987  0:003   Found Clover
+0:991  0:003  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+0:992  0:000  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+1:102  0:110  === [ GetEfiBootDeviceFromNvram ] =========================
+1:102  0:000  Default boot entry not found
+1:102  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+1:102  0:000  DefaultIndex=-1 and MainMenu.EntryCount=13
+1:121  0:018  GUI ready
+51:573  50:452  BootVariable of the entry is empty
+51:573  0:000  === [ StartLoader ] =======================================
+51:573  0:000  Finally: ExternalClock=25MHz BusSpeed=100377kHz CPUFreq=3312MHz PIS: hw.busfrequency=100000000Hz
+51:573  0:000  Loading boot.efi  status=Success
+51:625  0:051  GetOSVersion: 10.13
+51:625  0:000  CSR_CFG: CSR_ALLOW_UNTRUSTED_KEXTS | CSR_ALLOW_UNRESTRICTED_FS | CSR_ALLOW_TASK_FOR_PID | CSR_ALLOW_UNRESTRICTED_DTRACE | CSR_ALLOW_UNRESTRICTED_NVRAM
+51:625  0:000  Filtering KextPatches:
+51:625  0:000   - [00]: IOAHCIBlockStorage (SSD Trim Enabler) :: BinPatch :: [OS: 10.13 | MatchOS: All | MatchBuild: All] ==> disabled by user
+51:625  0:000   - [01]: AppleUSBXHCIPCI (USB Port Limit Patch) :: BinPatch :: [OS: 10.13 | MatchOS: All | MatchBuild: All] ==> allowed
+51:625  0:000  Filtering KernelPatches:
+51:625  0:000   - [00]: xcpm_cpuid_set_info © Pike R. Alpha :: [OS: 10.13 | MatchOS: All | MatchBuild: no] ==> disabled by user
+51:625  0:000   - [01]: xcpm_bootstrap Sierra © Pike R. Alpha :: [OS: 10.13 | MatchOS: All | MatchBuild: no] ==> disabled by user
+51:625  0:000   - [02]: xcpm_program_msrs © Pike R. Alpha :: [OS: 10.13 | MatchOS: All | MatchBuild: no] ==> disabled by user
+51:625  0:000   - [03]: xcpm_pkg_scope_msrs © Pike R. Alpha :: [OS: 10.13 | MatchOS: All | MatchBuild: no] ==> disabled by user
+51:625  0:000   - [04]: xcpm_SMT_scope_msrs © Pike R. Alpha :: [OS: 10.13 | MatchOS: All | MatchBuild: no] ==> disabled by user
+51:625  0:000   - [05]: xcpm_core_scope_msrs © Pike R. Alpha :: [OS: 10.13 | MatchOS: All | MatchBuild: no] ==> allowed by OS
+51:625  0:000   - [06]: xcpm_idle patch by Pike R. Alpha :: [OS: 10.13 | MatchOS: All | MatchBuild: no] ==> disabled by user
+51:625  0:000   - [07]: 10.13 Installer/Updater essential :: [OS: 10.13 | MatchOS: All | MatchBuild: no] ==> allowed by OS
+51:625  0:000   - [08]: Lilu 1.2.x debug :: [OS: 10.13 | MatchOS: All | MatchBuild: no] ==> disabled by user
+51:625  0:000  Will not patch boot.efi
+51:625  0:000  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+51:736  0:111  === [ PatchSmbios ] =======================================
+51:736  0:000  insert table 9 for dev 0:0
+51:736  0:000  insert table 9 for dev 0:1
+51:736  0:000  insert table 9 for dev 1F:6
+51:737  0:000  Trusting SMBIOS...
+51:737  0:000  Channels: 3
+51:737  0:000  Interleave: 0 2 4 1 3 5 6 8 10 7 9 11 12 14 16 13 15 17 18 20 22 19 21 23
+51:737  0:000   partNum unknown
+51:737  0:000  SMBIOS Type 17 Index = 0 => 0 0:
+51:737  0:000  BANK 0 DIMM0 2666MHz 4096MB
+51:737  0:000   partNum unknown
+51:737  0:000  SMBIOS Type 17 Index = 1 => 2 2:
+51:737  0:000  BANK 1 DIMM0 0MHz 4096MB
+51:737  0:000   partNum unknown
+51:737  0:000  SMBIOS Type 17 Index = 2 => 4 4:
+51:737  0:000  BANK 2 DIMM0 0MHz 4096MB
+51:737  0:000  SMBIOS Type 17 Index = 3 => 1 1:
+51:737  0:000  BANK 0 DIMM1 EMPTY
+51:737  0:000  SMBIOS Type 17 Index = 4 => 3 3:
+51:737  0:000  BANK 1 DIMM1 EMPTY
+51:737  0:000   partNum unknown
+51:737  0:000  SMBIOS Type 17 Index = 5 => 5 5:
+51:737  0:000  BANK 2 DIMM1 2666MHz 4096MB
+51:737  0:000   partNum unknown
+51:737  0:000  SMBIOS Type 17 Index = 6 => 6 6:
+51:737  0:000  BANK 0 DIMM2 2666MHz 4096MB
+51:737  0:000  SMBIOS Type 17 Index = 7 => 8 8:
+51:737  0:000  BANK 1 DIMM2 EMPTY
+51:737  0:000  mTotalSystemMemory = 20480
+51:737  0:000  NumberOfMemoryDevices = 8
+51:737  0:000  Type20[0]->End = 0x3FFFFF, Type17[0] = 0x1000
+51:737  0:000  Type20[1]->End = 0x7FFFFF, Type17[1] = 0x3000
+51:737  0:000  Type20[2]->End = 0xBFFFFF, Type17[2] = 0x6000
+51:737  0:000  Type20[3]->End = 0xFFFFFF, Type17[5] = 0xA000
+51:737  0:000  Type20[4]->End = 0x13FFFFF, Type17[6] = 0xF000
+51:737  0:000  Table 131 is present, CPUType=31
+51:737  0:000  Change to: A05
+51:737  0:000  === [ PatchACPI ] =========================================
+51:737  0:000  RSDT 0x36AA7028
+51:737  0:000  FADT from RSDT: 0x36AA7210
+51:737  0:000  XSDT 0x36AA70D8
+51:737  0:000  FADT from XSDT: 0x36AC6A28
+51:737  0:000  Xsdt reallocation done
+51:737  0:000  old FADT length=114
+51:737  0:000   SignatureFixup: 0xD21DD9A4 -> 0
+51:737  0:000  Apply DsdtFixMask=0x00000000
+51:737  0:000     drop _DSM mask=0x0000
+51:737  0:000  === [ FixBiosDsdt ] =======================================
+51:737  0:000  USBADR[0] = 0x140000 and PCIe = 0xFFFE
+51:737  0:000  USBADR[1] = 0x1C0004 and PCIe = 0x0
+51:747  0:009  Audio HDA (addr:0x1F0003) setting specified layout-id=7 (0x7)
+51:747  0:000  VideoCard devID=0x13C210DE
+51:747  0:000  DisplayADR1[0] = 0x0, DisplayADR2[0] = 0x0
+51:748  0:000  Patching DSDT:
+51:748  0:000   - [CAVS -> HDEF]: pattern 43415653, patched at: [ (AF4C) (987F) (CAC) (8F) ]
+51:748  0:000   - [PC00 -> PCI0]: pattern 50433030, patched at: [ (1C) (12) (43) (12) (12) (16) (16) (16) (16) (12) (F52) (10) (F) (22) (10) (4C15) (73) (43) (1A) (1A) (1A) (1A) (1A) (1A) (1A) (1A) (1A) (1A) (1A) (1A) (1A) (1A) (1A) (1A) (1A) (1A) (1A) (1A) (1A) (1A) (1A) (31A4) (9DC8) (14) (22) (10) (2A) (18) (3F5) (66) (5C0) (D1A) (F) (F) (1C) (14) (10) (E) (3FF) (34) (127) (B9) (132) (12E) (B4) (84) (2F) (2F) (15E) (A5) (5486) (F32) (F6C) (161) (1FB) (DA) (13) (A9) (13) (A6) (13) (A6) (13) (A6) (13) (A6) (13) (A6) (A8) (A8) (E4) (E4) (10EC) (14) (10) (12) (14) (10) (12) (14) (10) (12) (14) (10) (12) (14) (10) (12) (14) (10) (12) (14) (10) (12) (14) (10) (12) (14) (10) (12) (14) (10) (12) (14) (10) (12) (14) (10) (12) (14) (10) (12) (14) (10) (12) (14) (10) (12) (14) (10) (12) (14) (10) (12) (14) (10) (12) (14) (10) (12) (14) (10) (50) (53C) ]
+51:748  0:000   - [PC01 -> PCI1]: pattern 50433031, patched at: [ (6081) (1A) (1A) (1A) (4ED5) (8440) (A0E4) (6DF) (12) (15) (1E) (F) (12) (15) (1E) (F) (12) (15) (1E) (F) (12) (15) (1E) (33D) (12) (18) (12) (18) (12) (18) (12) (1B5) (10) (E) (12) (E) (E) (D) (6D) (5B) (5DD) ]
+51:748  0:000   - [PC02 -> PCI2]: pattern 50433032, patched at: [ (60F9) (1A) (1A) (1A) (7272) (6042) (A151) (7EB) (12) (15) (1E) (F) (12) (15) (1E) (F) (12) (15) (1E) (F) (12) (15) (1E) (275) (12) (18) (12) (18) (12) (18) (12) (172) (E) (12) (E) (E) (664) ]
+51:748  0:000   - [PC03 -> PCI3]: pattern 50433033, patched at: [ (6171) (1A) (19) (19) (9593) (3CC2) (A1BE) (80) (873) (12) (15) (1E) (F) (12) (15) (1E) (F) (12) (15) (1E) (F) (12) (15) (1E) (1AD) (12) (18) (12) (18) (12) (18) (12) (11B) (E) (12) (E) (21) (E) (5E5) ]
+51:749  0:000   - [PC04 -> PCI4]: pattern 50433034, patched at: [ (11AF6) (1943) (B022) (5E6) ]
+51:749  0:000   - [PC05 -> PCI5]: pattern 50433035, patched at: [ (1252F) (F21) (B01D) (5EB) ]
+51:749  0:000   - [SL05 -> GFX0]: pattern 534C3035, patched at: [ (DE64) ]
+51:749  0:000   - [OSI -> XOSI]: pattern 5F4F5349, patched at: [ (3CB) (3) (17) (19) (12) (10) (12) (1B) (1B) (1B) (17) (1B) (17) (17) (346) (3) (1D) (19) (1B) (17) (19) (1B) (17) (17) (17) (17) (17) (12) (10) ]
+51:749  0:000   - [EC0_ -> EC__]: pattern 4543305F, bin not found / already patched!
+51:749  0:000   - [H_EC  -> EC__]: pattern 485F4543, bin not found / already patched!
+51:750  0:000   - [GBE1 -> ETH0]: pattern 47424531, patched at: [ (AF7F) (985F) (5DF) (87) ]
+51:750  0:000   - [D0A4  -> ETH1]: pattern 44304134, bin not found / already patched!
+51:750  0:000   - [HEC1 -> IMEI]: pattern 48454331, patched at: [ (9BB9) ]
+51:750  0:000   - [PMC1 -> PMCR]: pattern 504D4331, patched at: [ (AF3B) (9B88) (178) (34) ]
+51:750  0:000   - [LPC0 -> LPCB]: pattern 4C504330, patched at: [ (9FE0) (8FF7) (14) (22) (10) (2A) (18) (19C6) (B23) (11) (F) (F) ]
+51:750  0:000   - [FPU_ -> MATH]: pattern 4650555F, patched at: [ (A0C0) ]
+51:751  0:000   - [TMR_ -> TIMR]: pattern 544D525F, patched at: [ (A0E7) ]
+51:751  0:000   - [PIC_ -> IPIC]: pattern 5049435F, patched at: [ (A08E) ]
+51:751  0:000   - [_DSM -> XDSM]: pattern 5F44534D, patched at: [ (7D0) (14273) (82) (53) (2A3) (11C) (732) (11) (55) (22) (21) (16) (14) (FC) (364) (35F) (364) (364) (364) (364) (364) (364) (364) (364) (364) (364) (364) (364) (364) (364) (364) (364) (364) (364) (364) (364) (364) (27F) (F32) (146F) (C0) (BD) (BD) (BD) (BD) (A8) (A8) (B6) (E4) (E4) (2040) ]
+51:751  0:000  first CPU found at 2F2F offset 2F33
+51:751  0:000  device candidate at 2E96
+51:751  0:000  device inserted in acpi_cpu_score SCK0
+51:751  0:000  score candidate at 113B
+51:751  0:000  score inserted in acpi_cpu_score _SB_SCK0
+51:751  0:000  Found ACPI CPU: CP00 | CP01 | CP02 | CP03 | CP04 | CP05 | CP06 | CP07 | CP08 | CP09 | CP0A | CP0B | CP0C | CP0D | CP0E | CP0F | CP10 | CP11 | CP12 | CP13 | CP14 | CP15 | CP16 | CP17 | CP18 | CP19 | CP1A | CP1B | CP1C | CP1D | CP1E | CP1F , within the score: _SB_SCK0
+51:752  0:000  Found PCIROOTUID = 0
+51:752  0:000  === [ ACPIDropTables ] ====================================
+51:752  0:000  Drop tables from Xsdt, SIGN=DMAR TableID=A M I  Length=216
+51:752  0:000   Xsdt has tables count=33
+51:752  0:000   Table: DMAR  A M I   216 dropped
+51:752  0:000  === [ PatchAllSSDT ] ======================================
+51:752  0:000  Patch table: SSDT  GSWApp len=0x7A2E
+51:752  0:000  0. [CAVS -> HDEF]: pattern 43415653, bin not found / already patched!
+51:752  0:000  1. [PC00 -> PCI0]: pattern 50433030, bin not found / already patched!
+51:752  0:000  2. [PC01 -> PCI1]: pattern 50433031, bin not found / already patched!
+51:752  0:000  3. [PC02 -> PCI2]: pattern 50433032, bin not found / already patched!
+51:752  0:000  4. [PC03 -> PCI3]: pattern 50433033, bin not found / already patched!
+51:752  0:000  5. [PC04 -> PCI4]: pattern 50433034, bin not found / already patched!
+51:752  0:000  6. [PC05 -> PCI5]: pattern 50433035, bin not found / already patched!
+51:752  0:000  7. [SL05 -> GFX0]: pattern 534C3035, bin not found / already patched!
+51:752  0:000  8. [OSI -> XOSI]: pattern 5F4F5349, bin not found / already patched!
+51:752  0:000  9. [EC0_ -> EC__]: pattern 4543305F, bin not found / already patched!
+51:752  0:000  10. [H_EC  -> EC__]: pattern 485F4543, bin not found / already patched!
+51:752  0:000  11. [GBE1 -> ETH0]: pattern 47424531, bin not found / already patched!
+51:752  0:000  12. [D0A4  -> ETH1]: pattern 44304134, bin not found / already patched!
+51:752  0:000  13. [HEC1 -> IMEI]: pattern 48454331, bin not found / already patched!
+51:752  0:000  14. [PMC1 -> PMCR]: pattern 504D4331, bin not found / already patched!
+51:752  0:000  15. [LPC0 -> LPCB]: pattern 4C504330, bin not found / already patched!
+51:752  0:000  16. [FPU_ -> MATH]: pattern 4650555F, bin not found / already patched!
+51:752  0:000  17. [TMR_ -> TIMR]: pattern 544D525F, bin not found / already patched!
+51:752  0:000  18. [PIC_ -> IPIC]: pattern 5049435F, bin not found / already patched!
+51:752  0:000  19. [_DSM -> XDSM]: pattern 5F44534D, bin not found / already patched!
+51:752  0:000  Patch table: SSDT  SSDT  PM len=0xD427
+51:752  0:000  0. [CAVS -> HDEF]: pattern 43415653, bin not found / already patched!
+51:752  0:000  1. [PC00 -> PCI0]: pattern 50433030, bin not found / already patched!
+51:753  0:000  2. [PC01 -> PCI1]: pattern 50433031, bin not found / already patched!
+51:753  0:000  3. [PC02 -> PCI2]: pattern 50433032, bin not found / already patched!
+51:753  0:000  4. [PC03 -> PCI3]: pattern 50433033, bin not found / already patched!
+51:753  0:000  5. [PC04 -> PCI4]: pattern 50433034, bin not found / already patched!
+51:753  0:000  6. [PC05 -> PCI5]: pattern 50433035, bin not found / already patched!
+51:753  0:000  7. [SL05 -> GFX0]: pattern 534C3035, bin not found / already patched!
+51:753  0:000  8. [OSI -> XOSI]: pattern 5F4F5349, bin not found / already patched!
+51:753  0:000  9. [EC0_ -> EC__]: pattern 4543305F, bin not found / already patched!
+51:753  0:000  10. [H_EC  -> EC__]: pattern 485F4543, bin not found / already patched!
+51:753  0:000  11. [GBE1 -> ETH0]: pattern 47424531, bin not found / already patched!
+51:753  0:000  12. [D0A4  -> ETH1]: pattern 44304134, bin not found / already patched!
+51:753  0:000  13. [HEC1 -> IMEI]: pattern 48454331, bin not found / already patched!
+51:753  0:000  14. [PMC1 -> PMCR]: pattern 504D4331, bin not found / already patched!
+51:754  0:000  15. [LPC0 -> LPCB]: pattern 4C504330, bin not found / already patched!
+51:754  0:000  16. [FPU_ -> MATH]: pattern 4650555F, bin not found / already patched!
+51:754  0:000  17. [TMR_ -> TIMR]: pattern 544D525F, bin not found / already patched!
+51:754  0:000  18. [PIC_ -> IPIC]: pattern 5049435F, bin not found / already patched!
+51:754  0:000  19. [_DSM -> XDSM]: pattern 5F44534D, bin not found / already patched!
+51:754  0:000  Patch table: SSDT  A M I  len=0x956
+51:754  0:000  0. [CAVS -> HDEF]: pattern 43415653, bin not found / already patched!
+51:754  0:000  1. [PC00 -> PCI0]: pattern 50433030, patched at: [ (1C) (12) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (1F) (9C) (33) (33) (33) (33) (33) (33) (33) (33) (33) (34) (4D) (33) (34) (4D) (33) (33) (33) (33) (33) (33) (33) (33) (33) (33) (33) ]
+51:754  0:000  2. [PC01 -> PCI1]: pattern 50433031, bin not found / already patched!
+51:754  0:000  3. [PC02 -> PCI2]: pattern 50433032, bin not found / already patched!
+51:754  0:000  4. [PC03 -> PCI3]: pattern 50433033, bin not found / already patched!
+51:754  0:000  5. [PC04 -> PCI4]: pattern 50433034, bin not found / already patched!
+51:754  0:000  6. [PC05 -> PCI5]: pattern 50433035, bin not found / already patched!
+51:754  0:000  7. [SL05 -> GFX0]: pattern 534C3035, bin not found / already patched!
+51:754  0:000  8. [OSI -> XOSI]: pattern 5F4F5349, bin not found / already patched!
+51:754  0:000  9. [EC0_ -> EC__]: pattern 4543305F, bin not found / already patched!
+51:754  0:000  10. [H_EC  -> EC__]: pattern 485F4543, bin not found / already patched!
+51:754  0:000  11. [GBE1 -> ETH0]: pattern 47424531, bin not found / already patched!
+51:754  0:000  12. [D0A4  -> ETH1]: pattern 44304134, bin not found / already patched!
+51:754  0:000  13. [HEC1 -> IMEI]: pattern 48454331, bin not found / already patched!
+51:754  0:000  14. [PMC1 -> PMCR]: pattern 504D4331, bin not found / already patched!
+51:754  0:000  15. [LPC0 -> LPCB]: pattern 4C504330, bin not found / already patched!
+51:754  0:000  16. [FPU_ -> MATH]: pattern 4650555F, bin not found / already patched!
+51:754  0:000  17. [TMR_ -> TIMR]: pattern 544D525F, bin not found / already patched!
+51:754  0:000  18. [PIC_ -> IPIC]: pattern 5049435F, bin not found / already patched!
+51:754  0:000  19. [_DSM -> XDSM]: pattern 5F44534D, bin not found / already patched!
+51:754  0:000  Patch table: SSDT  sensrhub len=0x29F
+51:754  0:000  0. [CAVS -> HDEF]: pattern 43415653, bin not found / already patched!
+51:754  0:000  1. [PC00 -> PCI0]: pattern 50433030, bin not found / already patched!
+51:754  0:000  2. [PC01 -> PCI1]: pattern 50433031, bin not found / already patched!
+51:754  0:000  3. [PC02 -> PCI2]: pattern 50433032, bin not found / already patched!
+51:754  0:000  4. [PC03 -> PCI3]: pattern 50433033, bin not found / already patched!
+51:754  0:000  5. [PC04 -> PCI4]: pattern 50433034, bin not found / already patched!
+51:754  0:000  6. [PC05 -> PCI5]: pattern 50433035, bin not found / already patched!
+51:754  0:000  7. [SL05 -> GFX0]: pattern 534C3035, bin not found / already patched!
+51:754  0:000  8. [OSI -> XOSI]: pattern 5F4F5349, bin not found / already patched!
+51:754  0:000  9. [EC0_ -> EC__]: pattern 4543305F, bin not found / already patched!
+51:754  0:000  10. [H_EC  -> EC__]: pattern 485F4543, bin not found / already patched!
+51:754  0:000  11. [GBE1 -> ETH0]: pattern 47424531, bin not found / already patched!
+51:754  0:000  12. [D0A4  -> ETH1]: pattern 44304134, bin not found / already patched!
+51:754  0:000  13. [HEC1 -> IMEI]: pattern 48454331, bin not found / already patched!
+51:754  0:000  14. [PMC1 -> PMCR]: pattern 504D4331, bin not found / already patched!
+51:754  0:000  15. [LPC0 -> LPCB]: pattern 4C504330, bin not found / already patched!
+51:754  0:000  16. [FPU_ -> MATH]: pattern 4650555F, bin not found / already patched!
+51:754  0:000  17. [TMR_ -> TIMR]: pattern 544D525F, bin not found / already patched!
+51:754  0:000  18. [PIC_ -> IPIC]: pattern 5049435F, bin not found / already patched!
+51:754  0:000  19. [_DSM -> XDSM]: pattern 5F44534D, patched at: [ (A5) ]
+51:754  0:000  Patch table: SSDT  PtidDevc len=0x3002
+51:754  0:000  0. [CAVS -> HDEF]: pattern 43415653, bin not found / already patched!
+51:754  0:000  1. [PC00 -> PCI0]: pattern 50433030, bin not found / already patched!
+51:754  0:000  2. [PC01 -> PCI1]: pattern 50433031, bin not found / already patched!
+51:754  0:000  3. [PC02 -> PCI2]: pattern 50433032, bin not found / already patched!
+51:754  0:000  4. [PC03 -> PCI3]: pattern 50433033, bin not found / already patched!
+51:754  0:000  5. [PC04 -> PCI4]: pattern 50433034, bin not found / already patched!
+51:754  0:000  6. [PC05 -> PCI5]: pattern 50433035, bin not found / already patched!
+51:754  0:000  7. [SL05 -> GFX0]: pattern 534C3035, bin not found / already patched!
+51:754  0:000  8. [OSI -> XOSI]: pattern 5F4F5349, bin not found / already patched!
+51:754  0:000  9. [EC0_ -> EC__]: pattern 4543305F, bin not found / already patched!
+51:754  0:000  10. [H_EC  -> EC__]: pattern 485F4543, patched at: [ (24) (57) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (3A) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (16) (B4D) (17) (14) (25) (14) (25) (14) (25) (14) (25) (14) (25) (14) (25) (14) (3E) (1A) (14) (24) (14) (24) (14) (24) (14) (24) (14) (11E) (17) (14) (25) (14) (25) (14) (25) (14) (25) (14) (25) (14) (25) (14) (25) (14) (56) (1A) (14) (24) (14) (24) (14) (24) (14) (8D) (15) (14) (1B) (14) (1D) (14) (1C) (14) (1E) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (35) (14) (16) (14) (44) (4E) (14) (1B) (14) (1B) (14) (1D) (14) (20) (14) (20) (14) (20) (14) (20) (14) (4F) (14) (1B) (14) (1B) (14) (1D) (14) (20) (14) (20) (14) (20) (14) (AE) (15) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (1C) (14) (3A) (14) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (1A) (13) (21) (14) (21) (14) (23) (15) (14) (25) (15) (14) (19) (14) (1D) (14) (1D) (14) ]
+51:754  0:000  11. [GBE1 -> ETH0]: pattern 47424531, bin not found / already patched!
+51:754  0:000  12. [D0A4  -> ETH1]: pattern 44304134, bin not found / already patched!
+51:754  0:000  13. [HEC1 -> IMEI]: pattern 48454331, bin not found / already patched!
+51:754  0:000  14. [PMC1 -> PMCR]: pattern 504D4331, bin not found / already patched!
+51:754  0:000  15. [LPC0 -> LPCB]: pattern 4C504330, bin not found / already patched!
+51:754  0:000  16. [FPU_ -> MATH]: pattern 4650555F, bin not found / already patched!
+51:754  0:000  17. [TMR_ -> TIMR]: pattern 544D525F, bin not found / already patched!
+51:754  0:000  18. [PIC_ -> IPIC]: pattern 5049435F, bin not found / already patched!
+51:754  0:000  19. [_DSM -> XDSM]: pattern 5F44534D, bin not found / already patched!
+51:754  0:000  Drop tables from Xsdt, SIGN=XXXX TableID= Length=0
+51:754  0:000   Xsdt has tables count=32
+51:754  0:000  Out of control with CPU numbers
+51:754  0:000  CPUBase=0 and ApicCPUBase=0 ApicCPUNum=20
+51:754  0:000  === [ RestSetup macOS ] ===================================
+51:754  0:000  EdidDiscovered size=256
+51:754  0:000  ------- EDID Table
+51:754  0:000  000  |  00  FF  FF  FF  FF  FF  FF  00  36  69
+51:754  0:000  010  |  62  14  01  00  00  00  18  1B  01  04
+51:754  0:000  020  |  A5  34  1E  78  33  87  E5  A4  56  50
+51:754  0:000  030  |  9E  26  0D  50  54  AF  CF  00  81  80
+51:754  0:000  040  |  61  7C  81  BC  95  00  95  3C  B3  00
+51:754  0:000  050  |  B3  3C  D1  FC  02  3A  80  18  71  38
+51:754  0:000  060  |  2D  40  58  2C  45  00  09  25  21  00
+51:754  0:000  070  |  00  1E  37  8B  80  18  71  38  2D  40
+51:754  0:000  080  |  58  2C  45  00  09  25  21  00  00  1E
+51:754  0:000  090  |  00  00  00  FD  00  5A  90  A2  A2  24
+51:754  0:000  100  |  01  00  20  20  20  20  20  20  00  00
+51:754  0:000  110  |  00  FC  00  4F  70  74  69  78  20  47
+51:754  0:000  120  |  32  34  43  0A  20  20  01  3C  02  03
+51:754  0:000  130  |  13  C1  23  09  07  07  83  01  00  00
+51:754  0:000  140  |  00  00  00  00  00  00  00  2A  82  80
+51:754  0:000  150  |  50  70  38  4D  40  08  20  F8  0C  53
+51:754  0:000  160  |  50  21  00  00  1A  00  00  00  00  00
+51:754  0:000  170  |  00  00  00  00  00  00  00  00  00  00
+51:754  0:000  180  |  00  00  00  00  00  00  00  00  00  00
+51:754  0:000  190  |  00  00  00  00  00  00  00  00  00  00
+51:754  0:000  200  |  00  00  00  00  00  00  00  00  00  00
+51:754  0:000  210  |  00  00  00  00  00  00  00  00  00  00
+51:754  0:000  220  |  00  00  00  00  00  00  00  00  00  00
+51:754  0:000  230  |  00  00  00  00  00  00  00  00  00  00
+51:754  0:000  240  |  00  00  00  00  00  00  00  00  00  00
+51:754  0:000  250  |  00  00  00  00  00  AE
+51:755  0:000   RCBA disabled; cannot use it
+51:755  0:000   setting specified layout-id=7 (0x7)
+51:755  0:000  NVidia GFX injection not set
+51:755  0:000  stringlength = 530
+51:755  0:000  CurrentMode: Width=1024 Height=768
+51:755  0:000  Beginning FSInjection
+FSInjectionInstall ...
+- Our FSI_SIMPLE_FILE_SYSTEM_PROTOCOL installed on handle: 31992D18
+FSInjectionInstall ...
+- Our FSI_SIMPLE_FILE_SYSTEM_PROTOCOL installed on handle: 31992D18
+51:759  0:003  Use origin smbios table type 1 guid.
+51:761  0:001  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Other
+51:761  0:000  Extra kext: EFI\CLOVER\kexts\Other\VoodooTSCSync.kext
+51:763  0:002  Extra kext: EFI\CLOVER\kexts\Other\IntelMausiEthernet.kext
+51:772  0:009  Extra kext: EFI\CLOVER\kexts\Other\FakeSMC.kext
+51:781  0:009  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.13
+51:781  0:000  SetStartupDiskVolume:
+51:781  0:000    * Volume: 'Install macOS High Sierra'
+51:781  0:000    * LoaderPath: '\.IABootFiles\boot.efi'
+51:782  0:000    * DevPath: Install macOS High Sierra
+51:782  0:000    * GUID = C25A523D-4385-49DB-B642-5D12FB56443C
+51:782  0:000    * efi-boot-device: <array><dict><key>IOMatch</key><dict><key>IOProviderClass</key><string>IOMedia</string><key>IOPropertyMatch</key><dict><key>UUID</key><string>C25A523D-4385-49DB-B642-5D12FB56443C</string></dict></dict></dict></array>
+51:782  0:000  Custom boot screen not used because entry has unset use graphics
+51:782  0:000  Closing log
